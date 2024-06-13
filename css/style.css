@@ -22,10 +22,6 @@ li {
     list-style: none;
 }
 
-element .style{
-    width: 100%;
-    display: inline-block;
-}
 
 .site-title {
     line-height: 1px;
@@ -104,6 +100,10 @@ element .style{
 #navi ul {
     margin: 0;
     padding: 0;
+}
+#navi ul.nav-menu {
+    margin-bottom: 60px;
+    border-top: solid 1px #fff;
 }
 
 #navi ul.nav-menu li {
@@ -201,6 +201,7 @@ element .style{
     width: 100%;
     padding: 100px 0 50px 0;
 }
+
 
 #pickup .slick-area {
     font-size: 0;
